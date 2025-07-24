@@ -3,25 +3,19 @@
 A snazzy neovim plugin to centre your buffer by creating a persistent
 scratchpad off to the left.
 
-![scratchpad-vid](https://raw.githubusercontent.com/FraserLee/readme_resources/main/resize.gif)
-
 <br><br>
 # Installation
 
-If you're reading this you've probably already got a plugin manager. If not, I
-recommend [Vim-Plug](https://github.com/junegunn/vim-plug), but they're essentially
-interchangeable. Add the appropriate line in the appropriate spot in your
-`.vimrc` file.
 
 ```vim
 " vim-plug
-Plug 'FraserLee/ScratchPad'
+Plug 'mknoetze/ScratchPad'
 
 " vundle
-Plugin 'FraserLee/ScratchPad'
+Plugin 'mknoetze/ScratchPad'
 
 " packer.nvim
-use 'FraserLee/ScratchPad'
+use 'mknoetze/ScratchPad'
 
 " etc...
 ```
@@ -165,6 +159,3 @@ execute "hi ColorColumn ctermbg=" .
 hi! link VirtColumn VertSplit
 ```
 
-![1](https://raw.githubusercontent.com/FraserLee/readme_resources/main/screenshot%201.png)
-![2](https://raw.githubusercontent.com/FraserLee/readme_resources/main/screenshot%202.png)
-![3](https://raw.githubusercontent.com/FraserLee/readme_resources/main/screenshot%203.png)

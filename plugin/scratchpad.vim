@@ -9,7 +9,7 @@ let g:scratchpad_autofocus = get(g:, 'scratchpad_autofocus', 0)
 let g:scratchpad_textwidth = get(g:, 'scratchpad_textwidth', 80)
 let g:scratchpad_minwidth = get(g:, 'scratchpad_minwidth', 12)
 
-let g:scratchpad_location = get(g:, 'scratchpad_location', '~/.scratchpad')
+let g:scratchpad_location = get(g:, 'scratchpad_location', '~/.scratchpad.md')
 
 let g:scratchpad_daily = get(g:, 'scratchpad_daily', 0)
 let g:scratchpad_daily_location = get(g:, 'scratchpad_daily_location', '~/.daily_scratchpad')

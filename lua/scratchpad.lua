@@ -199,8 +199,8 @@ function M.open()
     api.nvim_command('setlocal noswapfile')
 
     -- set the filetype, syntax
-    api.nvim_command('setlocal filetype=scratchpad')
-    api.nvim_command('syntax match ScratchPad /.*/')
+    -- api.nvim_command('setlocal filetype=scratchpad')
+    -- api.nvim_command('syntax match ScratchPad /.*/')
 
     -- disable virtual-text colour-column in scratchpad if lukas-reineke/virt-column.nvim is loaded
     local hasVC, VC = pcall(require, 'virt-column')
@@ -271,7 +271,7 @@ function M.auto()
 
     local s_count, _ = count()
 
-    if splits() > 1 then -- more than one vertical split -> close scratchpad
+    if splits() > 2 then -- more than one vertical split -> close scratchpad
         if s_count > 0 then M.close() end
         return
     end
